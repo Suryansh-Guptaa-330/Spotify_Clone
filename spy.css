@@ -1,0 +1,234 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.left{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    border: 2px solid #121212;
+    border-radius: 7px;
+    margin: 2px;
+    padding-left: 13px;
+}
+
+.library{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #121212;
+    background-color: #121212;
+    margin-top: 5px;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: -8px;
+    align-items: center;
+    color: #a7a7a7;
+    gap: 11px;
+    min-height: 67vh;
+    margin-bottom: 4px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.home ul li{
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    display: flex;  
+    gap: 15px;
+    padding-top: 18px;
+    padding-bottom: 6px;
+}
+.right{
+    width: 75vw;
+    height: 100vh;
+    border: 2px;
+    border: 2px solid #1d1d1d;
+    background-color: #121212;
+    margin: 2px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    height: 624px;
+    overflow: auto;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.home{
+    padding: 15px;
+    border: 1px solid #121212;
+    background-color: #121212;
+    margin-top: 5px;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: -8px;
+}   
+.songlist{
+    padding: 3px;
+    margin-top: 11px;
+    display: fle;
+} 
+.songlist ul li{
+    list-style: none; 
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #070707;
+   
+}
+.header *{
+            padding: 8px;
+}
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+ .spotifyplalist{
+    font-size: 28px;
+    padding: 18px;   
+}
+.card{
+    display: grid;
+    font-size: 17px;
+    padding: 8px;
+}
+.card img{
+    width: 145px;
+    object-fit: contain;
+    border-radius: 50%;
+    padding-top: 3px;
+    padding-bottom: 7px;
+} 
+.cardcontainer {
+    display: flex;
+}
+.card:hover{
+    background-color: rgba(78, 77, 77, 0.144);
+    border-radius: 5px;
+    cursor: pointer;
+    --a: 1;
+}
+.play{
+    width: 50px;
+    position: absolute;
+    bottom: 65px;
+    right: 10px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+.signupbtn{
+    background-color: #070707;
+    color: rgba(255, 255, 255, 0.562);
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signupbtn:hover{
+    font-size: 1.0000001rem;
+    color: white;
+    font-size: 17px;
+}
+.loginbtn{
+    padding: 11px 22px;
+    border-radius: 84px;
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    border-color: white;
+    cursor: pointer;
+}
+.playbar{
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(131, 130, 131, 0.932);
+    margin-left: 340px;
+    margin-top: 342px;
+    width: 72%;
+    height:30px;
+    padding: 12px;
+}
+.seekbar{
+    border: 2px solid red ;
+    height: 2px;
+    width: 100%;
+}
+.songbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+.songlist ul li{
+    display: flex;
+    justify-content: space-around;
+    gap: 19px;
+    padding: 7px ;
+    margin: 5px ;
+    align-items: center;
+    border: 1px solid rgba(247, 240, 240, 0.507);
+    border-radius: 4px;
+}
+.musicinfo{
+    font-size: 12px; 
+    width: 344px;
+}
+.songlist{
+    height: 330px;
+    overflow: auto;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8888883f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+.albums{
+    font-size: 17px;
+    padding: 8px;
+}
+.middle{
+    display: grid;
+    font-size: 17px;
+    padding: 8px;
+}
+.middle img{
+    width: 145px;
+    object-fit: contain;
+    padding-top: 6px;
+    border-radius: 8px;
+    padding-bottom: 7px;
+} 
+.middle:hover{
+    background-color: rgba(78, 77, 77, 0.144);
+    border-radius: 5px;
+    cursor: pointer;
+    --a: 1;
+}
+.garbage{
+    display: flex;
+}
