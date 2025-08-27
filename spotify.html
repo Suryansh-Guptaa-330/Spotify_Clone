@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spy.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <img src="logo.svg" alt="">
+                <ul>
+                    <li><img src="home.svg" alt="" width="27px"> <b> Home</b> </li>
+                    <li><img src="search.svg" alt="" width="25px"> <b>Search</b> </li>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="heading"><img src="lib.svg" alt="error" width="25px"> <b> Your Library</b></div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24">
+                        <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="24" height="24">
+                        <path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+                    </svg>
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <a href="http://127.0.0.1:3000/login.html" target="_blank" rel="noopener noreferrer"><button
+                            class="loginbtn">Log in</button></a>
+                </div>
+            </div>
+            <div class="spotifyplalist">
+                <b>Popular artists</b>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+                        A.R. Rahman
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174fc7c542c04b5f7dc8f1b1c16" alt="">
+                        Anurudh....
+                        <p>Artist</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616100005174e34fad78221a2cb31da57946" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+                </div>
+                <b>Popular Albums</b>
+                <div class="garbage">
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c60cc14ac9fd0dc9a30d30f3" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c60cc14ac9fd0dc9a30d30f3" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+                </div>
+
+
+                <b>Popular Albums</b>
+                <div class="garbage">
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c60cc14ac9fd0dc9a30d30f3" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+
+
+
+                    <div class="middle">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512">
+                                <circle fill="#01A437" cx="256" cy="256" r="256" />
+                                <path fill="#42C76E"
+                                    d="M256 9.28c136.12 0 246.46 110.35 246.46 246.46 0 3.22-.08 6.42-.21 9.62C497.2 133.7 388.89 28.51 256 28.51S14.8 133.7 9.75 265.36c-.13-3.2-.21-6.4-.21-9.62C9.54 119.63 119.88 9.28 256 9.28z" />
+                                <path fill="black"
+                                    d="M351.74 275.46c17.09-11.03 17.04-23.32 0-33.09l-133.52-97.7c-13.92-8.73-28.44-3.6-28.05 14.57l.54 191.94c1.2 19.71 12.44 25.12 29.04 16l131.99-91.72z" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c60cc14ac9fd0dc9a30d30f3" alt="">
+                        Pritam
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="playbar">
+            <div class="songinfo">
+
+            </div>
+            <div class="songbutton">
+                <img src="pev.svg" alt="" width="30px">
+                <img src="play.svg" alt="" width="30px">
+                <img src="next.svg " alt="" width="30px">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
